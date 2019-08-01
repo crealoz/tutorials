@@ -19,6 +19,7 @@ Specific sections can be defined.
 
     <html>
         <head>
+            <title>The title of the page</title>
         ...
         </head>
         <body>
