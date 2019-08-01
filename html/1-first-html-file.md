@@ -16,4 +16,6 @@ Except for ```<!DOCTYPE html>```, each part looking like ```<``` and ```>``` is 
 
 ```<!DOCTYPE html> ``` permits to tell the web browser to know what type of content will be following. It is called the document type declaration. If not completely necessary, it is strongly recommended. As we have seen, the browser will try to interpret it anyway.
 
-html tag permits to tell where the document begins and end. You might have noticed or not but in this example, all tags are opened and closed. ```<html>``` is called an opening tag while ```</html>``` is a closing one. 
+html tag permits to tell where the document begins and end. You might have noticed or not but in this example, all tags are opened and closed. ```<html>``` is called an opening tag while ```</html>``` is a closing one. 'head' tag will contain everything that is necessary to the use of the webpage but is not compulsory. 'body' will contain the content of the webpage, 
+
+You can now copy or write the tags in your document omitting ```....```, save it. If you open the document with the web browser of your choice, you should have a full blank page. Add now some text between the body tags, save, refresh the page. The text should be now be displayed on your browser. If not, check the cache of your browser. If you click right and select in contextual menu "display source" or similar, you should see your html source.
