@@ -10,6 +10,7 @@ Before starting the lessons and exercises, you need to set up your environment f
 2. [Discover tags](/html/2-discovering-tags.md)
 3. [Specific tags](/html/3-specific-tags.md)
 4. [Tags attributes](/html/4-tags-attributes.md)
+5. [Exercise #1](/html/5-exercise-1.md)
 
 ## CSS
 
