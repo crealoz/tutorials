@@ -49,7 +49,7 @@ permit to display data in rows and cells.
         <tr>
     </table>
     
-`<tr>` stands for table row and `<td>` for table data. The result will be that :
+In this example, `<tr>` stands for table row and `<td>` for table data. The result will be that :
     
 <table>
     <tr>
@@ -66,11 +66,7 @@ permit to display data in rows and cells.
 
 ## Advanced usage
 
-The tag `<thead>` will help to have different presentation for the head columns of the table. The `<td>` element 
- is replaced by `<th>` to help browser to know that this cell is a special one. In term of accessibility,
- it will help people with special needs to have a better transcription of the table. `<tfoot>`
-will permit to have a different style for the footer of the table. The content in that case will be 
-included in `<tbody>` tag. 
+Table can have header, footer and a body. `<thead>` will help to have different presentation for the head columns of the table. The `<td>` element is replaced by `<th>` to help browser to know that this cell is a special one. In term of accessibility, it will help people with special needs to have a better transcription of the table. `<tfoot>` will permit to have a different style for the footer of the table. The content in that case will be included in `<tbody>` tag. 
 
     <table>
         <thead>
