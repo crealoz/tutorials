@@ -36,7 +36,7 @@ any cropping or resizing.
 To create a table and only in this case, the tag `<table>` will be used to display a table. It will
 permit to display data in rows and cells.
 
-    <table border="1">
+    <table>
         <tr>
             <td>first cell</td>
             <td>second cell</td>
@@ -63,6 +63,9 @@ In this example, `<tr>` stands for table row and `<td>` for table data. The resu
         <td>third cell</td>
     <tr>
 </table>
+
+Historically, the table can have be used to align element on a web page. That type of behaviour is deprecated and should
+be reserved to email integration if no other way is possible.
 
 ## Advanced usage
 
