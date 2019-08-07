@@ -8,6 +8,8 @@ Before starting the lessons and exercises, you need to set up your environment f
 
 1. [Create a first html file and modify it.](/html/1-first-html-file.md)
 2. [Discover tags](/html/2-discovering-tags.md)
+3. [Specific tags](/html/3-specific-tags.md)
+4. [Tags attributes](/html/4-tags-attributes.md)
 
 ## CSS
 

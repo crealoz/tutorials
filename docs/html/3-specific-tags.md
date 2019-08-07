@@ -168,7 +168,7 @@ Result will be :
     <li>Five</li>
 </ul>
 
-## Cascading
+## Nested
 
 A list can contain another list.
 
