@@ -1,19 +1,19 @@
-## Sections
+# Sections
 
 There are many tags to improve the presentation of a document so the focus will be put on the main ones. For
  a good presentation, it is important to divide your document into sections. 
 
-### Div
+## Div
 
 The `<div>` tag will permit to define different sections of your document. Each section can contain 
 other sections. This tag needs to be opened and closed.
 
-### Paragraph
+## Paragraph
 
 Text should be included between `<p>` opening and closing tags to be well presented. This should not include 
 anything than text, links and text presentation tags that will be presented later.
 
-### Specific sections
+## Specific sections
 
 Specific sections can be defined.
 
@@ -43,11 +43,11 @@ Specific sections can be defined.
 Every tag can be used several times. Just note that `<header>` tag should not be used in `<footer>` or 
 `<footer>` not in `<header>`. In any case, a logic must be followed even if the browser will try to interpret.
     
-## Text presentation tags
+# Text presentation tags
 
 These tags will help to present the text of the document. 
 
-### Headings
+## Headings
 
 To define a title, different types of heading can be used. Unlike other presentation tags, these ones should not be 
 included in `<p>` tag.
@@ -75,7 +75,7 @@ something like that (`<html>` and `<body>` tags must be used and are replaced by
     </div>
     ...
 
-### `<strong>`, `<em>` and `<mark>`
+## `<strong>`, `<em>` and `<mark>`
 
 Words that need to be highlighted can be put between `<strong>` tags as browsers will put them on bold font by 
 default. ***Note*** that a bold tag exists, it is supposed to be used in the last resort. `<mark>` will not change 
@@ -83,11 +83,11 @@ font but will change the background color to highlight the text.
 
 The words on which you want to put emphasis need to be included in the according `<em>` tag.
 
-### `<span>`
+## `<span>`
 
 This tag will not change the text but is widely used along css to be able to change the style of a part of the text. 
 
-### Others
+## Others
 
 You can use `<small>` to have a smaller text.
 
