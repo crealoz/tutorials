@@ -1,6 +1,6 @@
 # Introduction
 
-In HTML, a tag can have attributes. These attributes will permit to have attach different informations to
+In HTML, a tag can have attributes. These attributes will permit to have attach different information to
 the tag that will be used by the browser to change the behaviour of the tag, in CSS to act as selectors or in 
 JavaScript to be selector and to attach data to the tag.
 
@@ -8,7 +8,7 @@ JavaScript to be selector and to attach data to the tag.
 
 ## Id
 
-Identifier is used mainly in JavaScript or CSS as a selector but also to create [anchor](/html/3-specific-tags.md#creating-a-link) 
+Identifier is used mainly in JavaScript or CSS as a selector but also to create [anchor](/html/3-specific-tags.html#creating-a-link) 
 to a specific part of the page. This must be **unique** on the document even if the browser will not emit any warning if
  two elements share the same ID. In real life, that will permit to attach a special behaviour or style on a page.
 
@@ -64,5 +64,5 @@ and the rows in the case of rowspan.
 
 ## reversed, start and type
 
-For [ordered list](/html/3-specific-tags.md#ordered), the attribute **reverse** will permit to have a reversed order, 
+For [ordered list](/html/3-specific-tags.html#ordered), the attribute **reverse** will permit to have a reversed order, 
 **start** will permit to start with a different number than 1 and **type** will define the type of marker.  
