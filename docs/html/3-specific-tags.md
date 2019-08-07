@@ -66,7 +66,7 @@ permit to display data in rows and cells.
 
 ## Advanced usage
 
-`<thead>` will help to have different presentation for the head columns of the table. The `<td>` element 
+The tag `<thead>` will help to have different presentation for the head columns of the table. The `<td>` element 
  is replaced by `<th>` to help browser to know that this cell is a special one. In term of accessibility,
  it will help people with special needs to have a better transcription of the table. `<tfoot>`
 will permit to have a different style for the footer of the table. The content in that case will be 
