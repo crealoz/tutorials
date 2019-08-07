@@ -55,7 +55,26 @@ If the cursor is over the following image, the alternative text should be displa
 This helps as well robot like "google" to store the image under the good query and improve the Search Engine Optimisation
 or SEO. Along with this attribute, **height** and **width** permit to have the image set to an appropriate size but in 
 a web that is browsed by different type of devices (phone, tablet, computers...), these attributes are most of the time
-unappropriated and developers prefer CSS with mobile-first pattern to display images correctly.  
+unappropriated and developers prefer CSS with mobile-first pattern to display images correctly. 
+
+## anchor attributes
+
+Still in a the purpose to make the web accessible to as many people as possible and improve the navigation experience, a
+set of attributes are available for the anchors.
+
+    <a href="https://blog.crealoz.fr" title="blog about IT in French" target="_blank">The crealoz blog</a>  
+    
+The most common are title and target. Title will permit to define what the link is related to and the target will help 
+the browser to understand in which tab to open a link. The common practice is to open internal link in the same tab while
+an external link will be open in a new tab. The following anchor will open the link in a new page and provide some 
+information on the hover.
+
+<a href="https://blog.crealoz.fr" title="blog about IT in French" target="_blank">The crealoz blog</a>
+
+The attribute **rel** is often use to tell robots to follow or index the link. It has some other use that will not be 
+approached in this chapter.
+
+Other attributes can be found at [w3school page regarding anchor](https://www.w3schools.com/tags/tag_a.asp)
 
 ## colspan and rowspan
 
