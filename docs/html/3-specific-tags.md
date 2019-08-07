@@ -41,12 +41,12 @@ permit to display data in rows and cells.
             <td>first cell</td>
             <td>second cell</td>
             <td>third cell</td>
-        <tr>
+        </tr>
         <tr>
             <td>first cell - second row</td>
             <td>second cell</td>
             <td>third cell</td>
-        <tr>
+        </tr>
     </table>
     
 In this example, `<tr>` stands for table row and `<td>` for table data. The result will be that :
@@ -56,16 +56,18 @@ In this example, `<tr>` stands for table row and `<td>` for table data. The resu
         <td>first cell</td>
         <td>second cell</td>
         <td>third cell</td>
-    <tr>
+    </tr>
     <tr>
         <td>first cell - second row</td>
         <td>second cell</td>
         <td>third cell</td>
-    <tr>
+    </tr>
 </table>
 
 Historically, the table can have be used to align element on a web page. That type of behaviour is deprecated and should
 be reserved to email integration if no other way is possible.
+
+
 
 ## Advanced usage
 
