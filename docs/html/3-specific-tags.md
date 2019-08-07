@@ -64,6 +64,8 @@ In this example, `<tr>` stands for table row and `<td>` for table data. The resu
     <tr>
 </table>
 
+
+
 Historically, the table can have be used to align element on a web page. That type of behaviour is deprecated and should
 be reserved to email integration if no other way is possible.
 
