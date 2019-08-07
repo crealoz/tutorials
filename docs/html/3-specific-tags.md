@@ -1,4 +1,4 @@
-#Creating a link
+# Creating a link
 
 Link is the base of the web. Each page links to another page and a page can contain a table with the different sections
 to achieve that the tag is `<a>` like anchor. To link to another page, the anchor will look like :
@@ -17,7 +17,7 @@ a link to a specific place in the page.
 This is an external link but as a specific anchor is defined, it will go at once to this specific part of the page. The 
 result will be : <a href="https://crealoz.fr/#resume-card">The resume of Christophe</a>
 
-#Display an image
+# Display an image
 
 To display an image, the tag `<img>` is the basic one. It will display the image that is available at the link defined 
 with the attribute **src** like source.
@@ -29,9 +29,9 @@ any cropping or resizing.
 
 <img src="/assets/images/uzmas-ezers-with-fog.jpg">
 
-#Creating a table
+# Creating a table
 
-##Basic usage
+## Basic usage
 
 To create a table and only in this case, the tag `<table>` will be used to display a table. It will
 permit to display data in rows and cells.
@@ -64,7 +64,7 @@ permit to display data in rows and cells.
     <tr>
 </table>
 
-##Advanced usage
+## Advanced usage
 
 `<thead>` will help to have different presentation for the head columns of the table. The `<td>` element 
  is replaced by `<th>` to help browser to know that this cell is a special one. In term of accessibility,
@@ -125,9 +125,9 @@ table has already a bold font for the header.
     </tfoot>
 </table>
 
-#Creating a list
+# Creating a list
 
-##Ordered
+## Ordered
 
 To display data, it can be useful to make it with a list. To have a list with number at the beginning of 
 each line, we will use the tag `<ol>` while each line will be defined by the tag `<ul>`.
@@ -148,7 +148,7 @@ Result will be :
     <li>Five</li>
 </ol>
 
-##Unordered
+## Unordered
 
 If there is not need to have marker with number, an unordered list is enough.
 
@@ -168,7 +168,7 @@ Result will be :
     <li>Five</li>
 </ul>
 
-##Cascading
+## Cascading
 
 A list can contain another list.
 
