@@ -1,99 +1,163 @@
 <!DOCTYPE html>
 <html>
-      <head>
-	  <meta charset="utf-8">
-	        <title>Alvis Grigaluns</title>
-	 </head>	  
-		<body>
-		<header>
-		<a id="me"></a>
-		<h1 align="center">About me</h1>
-		</header>
-		<div>
-			<p>	
-				<img src="alvis.jpg" width="200px">				
-			  	<br />Hey, I'm <b>Alvis.</b><br />
-					..................
-			</p>
-				</div>
-			<nav>
-			<ol>
-				<li><a href="#me">About me section</a></li>
-				<li><a href="#work">Work experience section </a></li>
-				<li><a href="#hobbies">Hobbies section</a></li>
-			</ol>
-		</nav>		
-			<div>
-				<a id="work"></a>
-				<h2>Work experience</h2>
-				<div>
-				<table>
-				<thead>
-			       <tr>
-				       <td><b>Work</b></td>
-					   <td><b>Year<b/></td>
-				       <td><b>Experience</b></td>
-				   </tr>
-				</thead>
-				<tbody>
-				   <tr>
-						<td>Pica service</td>
-						<td>2012</td>
-						<td>Cook</td>
-				   </tr>	
-				   <tr>
-						<td>IKA FOOD</td>
-						<td>2013<td>
-						<td>Cook</td>
-					</tr>	
-					<tr>
-						<td>DSV</td>
-						<td>2014</td>
-						<td>Loader</td>
-					</tr>
-					<tr>
-						<td>France</td>
-						<td>2015</td>
-						<td>Picker</td>
-					</tr>
-					<tr>
-						<td>Raituma krāsas</td>
-						<td>2016</td>
-						<td>Restorer</td>
-					
-					</tr>
-					<tr>
-						<td>Youth house</td>
-						<td>2017</td>
-						<td>Teacher</td>
-					</tr>
-					<tr>
-						<td>Romas dārzs</td>
-						<td>2018</td>
-						<td>Cook</td>
-					</tr>
-					<tr>
-						<td>Hot Potato</td>
-						<td>2019</td>
-						<td>Cook</td>
-					</tr>
-					</tbody>				   		
-			</table>
-				</div>
-			</div>
-			<div>
-					<a id="hobbies"></a>
-					<h3>Hobbies</h3>
-			<div>		
-				<ul>
-					<li>Music</li>
-					<li>Airsoft</li>
-					<li>Gastronomy</li>
-				</ul>
-				</div>
-			</div>
-			<footer>
-					Copyright &copy; Alvis
-			</footer>
-	  </body>
+    <head>
+        <meta charset="utf-8">
+        <title>Alvis Grigaluns</title>
+        <style>
+            body {
+                width: 800px;
+                margin: 0 auto;
+                background-color: #292929;
+                color: #ffffff;
+            }
+            #content div {
+                border-bottom: #c9ff89 groove 2px;
+                margin-bottom: 20px;
+            }
+            .work-xp {
+                border: none;
+                border-collapse:collapse;
+                margin: 20px 10px;
+                width: 100%;
+            }
+            .work-xp thead {
+                font-weight: bold;
+                background-color: #398751;
+            }
+            .work-xp tr:nth-child(1n) {
+                font-weight: bolder;
+            }
+            .work-xp tr:nth-child(2n) {
+                background-color: #c9ff89;
+                color: #000000;
+            }
+            .work-xp tr {
+                height: 30px;
+            }
+            .work-xp tr td {
+                text-align: center;
+            }
+            .image-cropper {
+                width: 200px;
+                height: 200px;
+                position: relative;
+                overflow: hidden;
+                border-radius: 50%;
+            }
+            .profile-pic {
+                display: inline;
+                margin: -25% auto 0;
+                height: auto;
+                width: 100%;
+            }
+            .my-name {
+                font-weight: 800;
+                color: #c9ff89;
+            }
+            a {
+                color: #c9ff89;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            p::first-letter {
+                font-weight: bold;
+                color: #c9ff89;
+                font-size: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <header id="me">
+            <h1 style="text-align: center;">About me</h1>
+            <nav style="float: right">
+                <ol>
+                    <li><a href="#me">About me section</a></li>
+                    <li><a href="#work">Work experience section </a></li>
+                    <li><a href="#hobbies">Hobbies section</a></li>
+                </ol>
+            </nav>
+        </header>
+        <section id="content">
+            <div>
+                <div class="image-cropper">
+                    <img src="alvis.jpg" class="profile-pic" alt="photo of Alvis" />
+                </div>
+                <p>
+                    Hey, I'm <span class="my-name">Alvis.</span>
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id rhoncus tellus. Vestibulum non massa nec ante lobortis tempor. Nulla vel posuere ipsum. Proin hendrerit, dui a pulvinar molestie, lectus justo mollis dolor, quis varius tortor nunc vitae urna. Praesent ultricies dolor et luctus eleifend. Phasellus in mi a ex convallis sodales. Maecenas lobortis risus ut neque maximus, nec aliquam nisl elementum. Mauris finibus velit vel lorem viverra varius. Curabitur sit amet venenatis neque, a fermentum justo. Integer maximus sit amet orci nec porta. Sed dui arcu, sagittis quis purus a, suscipit gravida metus. Fusce molestie nibh quis enim facilisis ultricies. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam suscipit ultricies nibh sed sagittis. Sed facilisis, mauris sit amet tempus convallis, est augue fringilla turpis, a posuere augue odio eu sem. Nullam bibendum eros eget felis dictum, quis accumsan velit faucibus. Sed condimentum arcu et lacus mollis ultrices. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin tristique purus id nisl tincidunt vulputate. Aliquam vulputate interdum tortor. Suspendisse eleifend id enim bibendum suscipit. Maecenas nec turpis orci. Etiam pellentesque massa at est vestibulum, id luctus nibh mattis. Sed porta nisi a justo imperdiet tristique quis non nisi. Proin eu purus a lorem consectetur porttitor non id eros. </p>
+                <p>Nam non elit sem. Nulla facilisi. Fusce facilisis, libero eu interdum feugiat, nunc felis tempus lectus, vitae ultrices magna enim sit amet dolor. Nam in congue purus, in luctus eros. Sed sed auctor dolor. Nam lacinia, augue vitae bibendum venenatis, leo eros lobortis dolor, vel interdum justo turpis sed magna. Donec consectetur ut leo vitae dignissim. Aenean a tempus purus, at vehicula lacus. Donec facilisis egestas ipsum, eget tristique nisi consectetur sit amet. Mauris aliquam leo ac facilisis imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac pellentesque sapien. Donec id venenatis sem. Phasellus efficitur urna quis imperdiet euismod. Morbi vel congue tortor. </p>
+                <p>Praesent quis congue nibh. Donec sodales ante a purus elementum auctor. Suspendisse malesuada est id felis hendrerit, sit amet gravida libero sollicitudin. Suspendisse pulvinar, libero congue posuere ultricies, est ante ornare sem, sed tincidunt dolor justo in libero. Cras ultricies arcu sodales ligula vehicula tempor at a lorem. Cras eleifend eu enim ac aliquet. In malesuada ut justo quis feugiat. Mauris ipsum nulla, ornare pretium turpis et, fringilla rhoncus odio. In vitae ligula aliquam, lacinia libero a, molestie velit. </p>
+                <p>Mauris porttitor nisi non neque tincidunt dapibus nec quis ligula. Vivamus mollis sapien mi, eget semper urna feugiat vitae. Nullam a enim non massa laoreet tempor sed non neque. Duis blandit tellus massa, quis pellentesque nisi accumsan eget. Curabitur volutpat orci ut metus auctor tristique. Suspendisse et dui non nulla rhoncus tempus. Donec augue elit, porttitor eleifend ex in, maximus semper elit. Etiam sed ex id nisi aliquet ullamcorper sit amet id massa. Suspendisse accumsan condimentum lectus, ac porta velit accumsan ac. Donec et nulla nec sapien ullamcorper placerat. </p>
+            </div>
+            <div id="work">
+                <h2>Work experience</h2>
+                <table class="work-xp">
+                    <thead>
+                    <tr>
+                        <th>Work</th>
+                        <th>Year</th>
+                        <th>Experience</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Pica service</td>
+                        <td>2012</td>
+                        <td>Cook</td>
+                    </tr>
+                    <tr>
+                        <td>IKA FOOD</td>
+                        <td>2013</td>
+                        <td>Cook</td>
+                    </tr>
+                    <tr>
+                        <td>DSV</td>
+                        <td>2014</td>
+                        <td>Loader</td>
+                    </tr>
+                    <tr>
+                        <td>France</td>
+                        <td>2015</td>
+                        <td>Picker</td>
+                    </tr>
+                    <tr>
+                        <td>Raituma krāsas</td>
+                        <td>2016</td>
+                        <td>Restorer</td>
+                    </tr>
+                    <tr>
+                        <td>Youth house</td>
+                        <td>2017</td>
+                        <td>Teacher</td>
+                    </tr>
+                    <tr>
+                        <td>Romas dārzs</td>
+                        <td>2018</td>
+                        <td>Cook</td>
+                    </tr>
+                    <tr>
+                        <td>Hot Potato</td>
+                        <td>2019</td>
+                        <td>Cook</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="hobbies">
+                <h3>Hobbies</h3>
+                <ul>
+                    <li>Music</li>
+                    <li>Airsoft</li>
+                    <li>Gastronomy</li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+            Copyright &copy; Alvis
+        </footer>
+    </body>
 </html>
