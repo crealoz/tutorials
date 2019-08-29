@@ -16,7 +16,13 @@ Before starting the lessons and exercises, you need to set up your environment f
 
 ### Vanilla CSS
 
+1. [Adding styles to tags](/css/1-adding-styles-to-tags.md)
+2. [Cascading](/css/2-cascading-style-sheet.md)
+
 ### CSS preprocessor
+
+1. [Install SASS](/scss/1-install-sass.md)
+2. [From CSS to Sassy CSS](/scss/2-from-css-to-sassy-css.md)
 
 ## JavaScript
 
@@ -86,8 +92,8 @@ Before starting the lessons and exercises, you need to set up your environment f
 
 ## Add own development
 
+### View
+
 ### Controllers
 
 ### Models
-
-### View
