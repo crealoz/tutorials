@@ -1,7 +1,3 @@
----
-title: Homepage
----
-
 This website provide the tutorials for developers at SIA Crealoz.
 
 Before starting the lessons and exercises, you need to set up your environment following [these instructions](/0-setting-up.md).
