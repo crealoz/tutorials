@@ -9,10 +9,21 @@ body {
 }
 
 header{
-    h1 {
-        &:before {
-            content : '';
+    .container {
+        margin: 0 auto 25px;
+        h1 {
+            &:before {
+                content : '';
+            }
+        }
+        img {
+            width : 180px;
+            float: right;
         }
     }
+}
+
+h2 {
+    color : #32ffc3;
 }
 
