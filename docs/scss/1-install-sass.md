@@ -1,3 +1,7 @@
+---
+title: Installing SASS
+---
+
 # Introduction
 
 The next step is to comprehend the scss. When you have just one page, it gets easy to make a stylesheet but on bigger 

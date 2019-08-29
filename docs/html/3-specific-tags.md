@@ -1,3 +1,8 @@
+---
+title: Familiarise with advanced tags
+---
+
+
 # Creating a link
 
 Link is the base of the web. Each page links to another page and a page can contain a table with the different sections

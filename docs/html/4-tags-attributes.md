@@ -1,3 +1,7 @@
+---
+title: Discovering tags attributes
+---
+
 # Introduction
 
 In HTML, a tag can have attributes. These attributes will permit to have attach different information to

@@ -1,3 +1,7 @@
+---
+title: Translating CSS to Sassy CSS
+---
+
 # Sassy CSS (SCSS)
 
 In the previous exercise, we got a style like this to display the table :

@@ -1,3 +1,8 @@
+---
+title: First exercise
+---
+
+
 # Create a page presenting yourself.
 
 ## Basics

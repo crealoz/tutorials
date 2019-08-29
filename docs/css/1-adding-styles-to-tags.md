@@ -1,3 +1,7 @@
+---
+title: Add styles to HTML pages
+---
+
 # Different ways to add styles to tags
 
 ## Using inline styles

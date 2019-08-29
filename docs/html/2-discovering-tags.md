@@ -1,3 +1,7 @@
+---
+title: Discovering tags
+---
+
 # Sections
 
 There are many tags to improve the presentation of a document so the focus will be put on the main ones. For
