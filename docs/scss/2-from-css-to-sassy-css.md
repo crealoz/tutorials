@@ -2,7 +2,7 @@
 title: Translating CSS to Sassy CSS
 ---
 
-# Sassy CSS (SCSS)
+## Sassy CSS (SCSS)
 
 In the previous exercise, we got a style like this to display the table :
 
@@ -42,7 +42,7 @@ The idea would be to have all the children of `.work-xp` inside the same bracket
 everything regarding this class and its children. The use of SASS will allow us to have an incorrect css but more 
 readable syntax converted to proper css. Let's see how we can write in SCSS.
 
-# Syntax
+## Syntax
 
 Any parent tag can contain children. As in CSS, we need to keep in mind that a child styles defined under a parent will 
 be available only in that context. For example, when in CSS we write `.work-xp tr td`, the style of this `td` will only

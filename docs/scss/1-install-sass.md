@@ -2,7 +2,7 @@
 title: Installing SASS
 ---
 
-# Introduction
+## Introduction
 
 The next step is to comprehend the scss. When you have just one page, it gets easy to make a stylesheet but on bigger 
 projects, we need a faster and more efficient way to style the webpages. Moreover, it can be interesting to reduce the 
@@ -14,7 +14,7 @@ install under the link "[install](https://sass-lang.com/install)". We will use t
 difficult (and it is), it will permits you to introduce yourself with command line installation that is preferable once 
 we will switch to Linux.
 
-# Node.js
+## Node.js
 There are different ways to have your scss file preprocessed to a css file but we will use [node.js](https://nodejs.org/en/download/) 
 for convenience. In addition to the basic processing functions, it permits to have the mapping simply done and compression
 as well. We will discover the usages of it after.

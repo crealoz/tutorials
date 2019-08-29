@@ -3,9 +3,9 @@ title: First exercise
 ---
 
 
-# Create a page presenting yourself.
+## Create a page presenting yourself.
 
-## Basics
+### Basics
 * the page must contain a title and each section subtitles
 * resume is in a paragraph
 * work experiences are in a table with header
@@ -14,6 +14,6 @@ title: First exercise
 * the page must contain an image 
 * templating must be done using sections and div 
 
-## Bonus
+### Bonus
 * include a video from a platform like youtube
  

@@ -2,13 +2,13 @@
 title: Making Cascading Style Sheet
 ---
 
-# CSS stands for Cascading Style Sheet
+## CSS stands for Cascading Style Sheet
 
 Any html document consists of parents, children, grand-children, grand-grand-children... The main node is `<html>`, 
 `<body>` is already a child of it and any node/tag under it is its child and so on. To apply a style to only specific 
 tr in one table, we can define a class on the table and then use the cascading selectors.
 
-## Children
+### Children
 
 Children are all nodes under a specific one. To select them, we need to use parent children selectors. Let's imagine a 
 table with the class `work-xp`, it will have `<tr>` and `<td>` to select them, we will use a syntax like that :
@@ -35,7 +35,7 @@ The more specific is a style, the more weight it has.
 That means that all `td` will have a red background except if they are children of table with the class `work-xp`. In that 
 case, the style applied will be the most specific one so blue.
 
-## Direct children
+### Direct children
 
 We have seen that list can include lists as much as table can include tables or div other divs that can contain other 
 div ...etc... ! If we want to apply a style only to direct children, we have a selector for direct children.
@@ -79,7 +79,7 @@ To apply style only to the grand-child of `first-div`, we will use child selecto
     
 Green color will be applied to the grand-children only of `<div id="first-div">`.
 
-## Pseudo-class
+### Pseudo-class
 
 These class are applied when an element have a special state. For example, their position e.g. `:nth-child(1n)`, the position
 of the pointer e.g. `:hover` but many other exist. An extensive list is found [here](https://www.w3schools.com/css/css_pseudo_classes.asp).

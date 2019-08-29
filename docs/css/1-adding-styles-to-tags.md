@@ -2,16 +2,16 @@
 title: Add styles to HTML pages
 ---
 
-# Different ways to add styles to tags
+## Different ways to add styles to tags
 
-## Using inline styles
+### Using inline styles
 
 A method that was used but should be avoid at crealoz is to do inline styling of web pages. In that case, we will use
 the attribute `style` of any tag to define a style.
 
     <div style="text-align : center">some text</style>
     
-## Using selectors
+### Using selectors
 
 Selectors are patterns that will permit to select a tag or a set of tags. We will divide them in three category for a 
 while :
@@ -22,7 +22,7 @@ while :
 not regarding the type of the tag. The html tag will make use of attribute `class` like `<div class="my-class">` and the
 selector will be `.my-class`.
 
-### Syntax
+#### Syntax
 
 To apply a rules to tags matching the pattern, a format must be followed :
 
@@ -38,7 +38,7 @@ To apply a rules to tags matching the pattern, a format must be followed :
         background-color : #FF0000;
     }
     
-### Using the head tag `<style>`
+#### Using the head tag `<style>`
 
 Another method that can be used in the case of a standalone page, is to put the styles rules in the 
 [head](/html/1-first-html-file.md) of the document. A `<style>` tag will be open in the head of the document and the 
@@ -67,7 +67,7 @@ rules will be written inside :
         </body>
     </html>  
     
-### Using a specific file with a link
+#### Using a specific file with a link
 
 The best way is to create a file with all the rules that we can name for example : `styles.css`. This file will contain
 all the rules and we will link it with any page where these rules are needed using the tag `<link>`.
