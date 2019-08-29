@@ -1,3 +1,7 @@
+---
+title: Setting up environment
+---
+
 1. Fork the repository if you are not member of SIA Crealoz.
 2. Clone the repository on your machine
 
