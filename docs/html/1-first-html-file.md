@@ -1,3 +1,7 @@
+---
+title: First HTML file
+---
+
 In the html folder of your project, create a file called index.html and modify it with your preferred IDE or notepad. 
 If you did not pick anything yet, you can begin with [notepad++](https://notepad-plus-plus.org/).
 
