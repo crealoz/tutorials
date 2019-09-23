@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Super form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="firstname">Firstname</label>
+                <input type="text" id="firstname" required name="firstname" value="Christophe">
+            </div>
+            <span id="firstname-error" class="error"></span>
+            <div class="form-group">
+                <label for="lastname">Lastname</label>
+                <input type="text" id="lastname" required name="lastname" value="Ferreboeuf">
+            </div>
+            <span id="lastname-error" class="error"></span>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" name="phone">
+            </div>
+            <span id="phone-error" class="error"></span>
+            <div class="form-group">
+                <label for="email">E-mail address</label>
+                <input type="email" id="email" required name="email" value="christophe@crealoz.fr">
+            </div>
+            <span id="email-error" class="error"></span>
+            <div class="form-group">
+                <label for="message" class="long-label">Your message is <span id="char-counter"></span> characters long.</label>
+                <textarea name="message" id="message">Un message</textarea>
+            </div>
+            <span id="message-error" class="error"></span>
+            <button type="submit" id="submit-form">Submit this form</button>
+        </form>
+    </div>
+    <div id="result">
+        On the <span id="datetime"></span>, <span id="name"></span> submitted following message :
+        <div id="message-result"></div>
+        <dl class="contacts">
+            <dt>Phone</dt><dd id="phone-result"></dd>
+            <dt>E-mail address</dt><dd id="email-result"></dd>
+        </dl>
+    </div>
+</body>
+</html>

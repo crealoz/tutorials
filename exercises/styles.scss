@@ -1,0 +1,143 @@
+.h1 {
+    color: #c9ff89;
+    text-align: center;
+}
+
+.nav {
+    margin-right: 20px;
+    float: right;
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #292929;
+    color: #ffffff;
+    font-family: arial, sans-serif;
+}
+
+footer {
+    text-align: center;
+}
+
+#content div {
+    border-bottom: #c9ff89 groove 2px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* can be written margin : 0 20px 20px; */
+    line-height: 25px;
+}
+
+.p {
+    text-indent: 30px;
+    &::first-letter {
+        font-weight: bold;
+        color: #c9ff89;
+        font-size: 30px;
+    }
+}
+
+.work-xp {
+    border: none;
+    border-collapse: collapse;
+    margin: 20px 1px;
+    width: 100%;
+    tr {
+        height: 30px;
+        &:nth-child(2n) {
+            background-color: #c9ff89;
+            color: #000000;
+        }
+        &:nth-child(1n) {
+            font-weight: bolder;
+        }
+        td {
+            text-align: center;
+        }
+    }
+    thead {
+        font-weight: bold;
+        background-color: #398751;
+    }
+}
+
+.image-cropper {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile-pic {
+    display: inline;
+    margin: -25% auto 0;
+    height: auto;
+    width: 100%;
+}
+
+.my-name {
+    font-weight: 800;
+    color: #c9ff89;
+}
+
+a {
+    color: #c9ff89;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+html {
+    background-image: url(back.jpg);
+}
+
+form {
+    .form-group {
+        min-height: 45px;
+        margin: 15px 0 0;
+        width: 100%;
+        label {
+            margin-left: 5%;
+            float: left;
+            width: 19%;
+            display: block;
+            font-size: 20px;
+            line-height: 35px;
+            &.long-label {
+                width: 90%;
+                margin: 0 5%;
+            }
+        }
+        input {
+            margin-right: 5%;
+            float: right;
+            height: 30px;
+            width: 69%;
+        }
+        textarea {
+            margin: 0 5%;
+            width: 90%;
+            height: 125px;
+        }
+
+    }
+    .error {
+        color: #ff0000;
+        margin: 0;
+        font-size: smaller;
+    }
+}
+#result{
+    display: none;
+    margin: 20px;
+    #message-result {
+        width: 90%;
+        margin: 5px 5%;
+        color: #000000;
+        background: #ffffff;
+        padding: 5px;
+    }
+}
