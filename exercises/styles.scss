@@ -141,3 +141,21 @@ form {
         padding: 5px;
     }
 }
+
+#drag, #not-drag {
+    background: aliceblue;
+    width: 120px;
+    padding: 20px;
+    margin: 15px;
+    color: black;
+}
+
+#not-drag {
+    background: brown;
+}
+
+#drop {
+    width: 100%;
+    height: 500px;
+    border: aliceblue 1px solid;
+}
